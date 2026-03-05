@@ -35,6 +35,7 @@
             label3 = new Label();
             splitter1 = new Splitter();
             button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -47,7 +48,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // button1
             // 
@@ -112,12 +112,24 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.Font = new Font("맑은 고딕", 12F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            button3.Location = new Point(138, 279);
+            button3.Name = "button3";
+            button3.Size = new Size(130, 30);
+            button3.TabIndex = 8;
+            button3.Text = "사진변경";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click_1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             ClientSize = new Size(839, 480);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(splitter1);
             Controls.Add(label3);
@@ -143,5 +155,6 @@
         private Label label3;
         private Splitter splitter1;
         private Button button2;
+        private Button button3;
     }
 }
