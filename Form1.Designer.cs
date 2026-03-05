@@ -58,9 +58,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(496, 234);
+            button1.ForeColor = Color.IndianRed;
+            button1.Location = new Point(435, 211);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(136, 46);
             button1.TabIndex = 2;
             button1.Text = "배경색변경";
             button1.UseVisualStyleBackColor = true;
