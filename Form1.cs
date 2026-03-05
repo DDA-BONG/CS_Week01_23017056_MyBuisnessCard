@@ -63,11 +63,21 @@ namespace WinFormsApp3
 
         }
 
-        
+
 
         private void button3_Click_1(object sender, EventArgs e)
         {
             pictureBox1.Image = Properties.Resources.wp5271636_seven_movie_wallpapers; // 버튼 클릭 시 이미지 변경
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();   
         }
     }
 }
