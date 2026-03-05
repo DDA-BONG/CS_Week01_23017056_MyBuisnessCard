@@ -6,8 +6,7 @@ namespace WinFormsApp3
         public Form1()
         {
             InitializeComponent();
-            pictureBox1.MouseEnter += PictureBox1_MouseEnter;
-            pictureBox1.MouseLeave += PictureBox1_MouseLeave;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)

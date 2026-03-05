@@ -52,6 +52,8 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseEnter += PictureBox1_MouseEnter;
+            pictureBox1.MouseLeave += PictureBox1_MouseLeave;
             // 
             // button1
             // 
