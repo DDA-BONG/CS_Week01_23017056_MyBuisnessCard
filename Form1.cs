@@ -15,6 +15,7 @@ namespace WinFormsApp3
         private void button1_Click(object sender, EventArgs e)
         {
             Random rand = new Random();
+            // 0-255 사이의 R, G, B 값을 무작위로 생성하여 배경색에 적용
             this.BackColor = Color.FromArgb(rand.Next(200), rand.Next(200), rand.Next(256));
         }
 
@@ -40,7 +41,17 @@ namespace WinFormsApp3
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://github.com/DDA-BONG",
+                UseShellExecute = true
+            });
+
         }
     }
 }
